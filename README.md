@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 # Lynx-Todo-App
 
 Todo App With Lynx
 
 ## Rspeedy project
-=======
-# Rspeedy project
->>>>>>> d6612f2 (..)
 
 This is a ReactLynx project bootstrapped with `create-rspeedy`.
 
