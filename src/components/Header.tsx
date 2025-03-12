@@ -3,6 +3,7 @@ import { useCallback, useEffect, useState } from "@lynx-js/react";
 import lynxLogo from "../assets/lynx-logo.png";
 import notification from "../assets/icons/notification.png";
 import menu from "../assets/icons/menu.png";
+import "../styles/Header.css";
 const Header = () => {
   const [name, setName] = useState("John Doe");
   const handleNotification = () => {
@@ -20,11 +21,8 @@ const Header = () => {
         </view>
       </view>
       <view className="Nav-btns">
-        <view bindtap={handleNotification}>
+        <view className="nav-btn-container" bindtap={handleNotification}>
           <image className="Nav-btn" src={notification} />
-        </view>
-        <view>
-          <image className="Nav-btn" src={menu} />
         </view>
       </view>
     </view>
