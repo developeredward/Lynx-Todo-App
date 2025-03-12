@@ -1,0 +1,17 @@
+.Search-container {
+  background: #f7f6f9;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  align-items: center;
+  border-radius: 30px;
+  gap: 10px;
+}
+.search-icon {
+  color: #000000;
+  height: 30px;
+  width: 30px;
+}
+.search-text {
+  color: #696969;
+}
