@@ -1,0 +1,50 @@
+.tabs-container {
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  bottom: 80px;
+}
+.icon-image {
+  width: 25px;
+  height: 25px;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  /* height: 70px; */
+  padding: 10px 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.097);
+  /* width: 250px; */
+}
+.tab {
+  padding: 15px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.last-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  /* height: 70px; */
+  padding: 10px 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.097);
+  /* width: 250px; */
+}
+/* .last-tab .tab {
+  padding: 5px;
+} */
+/* .tab:nth-child(2) {
+  padding: 50px;
+} */
