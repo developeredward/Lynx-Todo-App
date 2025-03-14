@@ -13,6 +13,9 @@ import calendarActive from "./assets/icons/active/calendar.png";
 import "./styles/App.css";
 import HomePage from "./screens/HomePage.jsx";
 import Tabs from "./components/Tabs.jsx";
+import Schedule from "./screens/Schedule.jsx";
+import Notes from "./screens/Notes.jsx";
+import Profile from "./screens/Profile.jsx";
 
 export function App() {
   const [activeTab, setActiveTab] = useState(0);
@@ -20,7 +23,11 @@ export function App() {
     <view>
       <view className="Background" />
       <view className="App">
-        <HomePage />
+        {activeTab === 0 && <HomePage />}
+        {activeTab === 1 && <Schedule />}
+        {activeTab === 2 && <Notes />}
+        {activeTab === 3 && <Profile />}
+
         <Tabs activeTab={activeTab} setActiveTab={setActiveTab}>
           <view>
             <image
