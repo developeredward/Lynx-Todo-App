@@ -22,6 +22,7 @@ export function App() {
   return (
     <view>
       <view className="Background" />
+
       <view className="App">
         {activeTab === 0 && <HomePage />}
         {activeTab === 1 && <Schedule />}
