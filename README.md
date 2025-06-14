@@ -1,4 +1,4 @@
-# Lynx-Todo-App
+# Lynx-Todo
 
 Todo App With Lynx
 
